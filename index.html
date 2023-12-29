@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM PRACTICE</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(197, 228, 241);
+    }
+  </style>
+  <body>
+    <center><h1>User Registration Form</h1></center>
+    <form>
+      <label
+        ><b>First Name :</b>
+        <input
+          required
+          type="text"
+          name="First Name :"
+          size="15"
+          maxlength="20"
+          minlength="3"
+          placeholder="First Name..."
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        <b>Last Name :</b>
+        <input
+          type="text"
+          name="Last Name :"
+          size="15"
+          maxlength="20"
+          minlength="3"
+          placeholder="Last Name..."
+          required="required"
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        <b>Password :</b>
+        <input
+          type="password"
+          name="Password :"
+          size="20"
+          maxlength="20"
+          minlength="3"
+          required="required"
+          placeholder="Password..."
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        <b>Birthdate : </b>
+        <input type="date" name="Birthdate" required="required" />
+      </label>
+      <br />
+      <br />
+      <label>
+        <b>Email :</b>
+        <input
+          type="email"
+          name="Email"
+          placeholder="abcd@email.com"
+          required="required"
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        <b>Website : </b>
+        <input
+          type="url"
+          name="Website"
+          placeholder="www.abcd.com"
+          required="required"
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        <b>Search :</b>
+        <input
+          type="search"
+          name="Search"
+          placeholder="Enter Kaywords..."
+          required="required"
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        <b>Bio :</b>
+        <textarea
+          name="Bio"
+          cols="50"
+          rows="5"
+          placeholder="Write About Yourself.."
+          required="required"
+        ></textarea>
+      </label>
+      <br />
+      <br />
+      <fieldset>
+        <legend><b>Gender: </b></legend>
+        <label
+          ><input type="radio" name="Gender" value="Male" checked="checked" />
+          Male
+        </label>
+        <label
+          ><input type="radio" name="Gender" value="Female" /> Female
+        </label>
+        <label><input type="radio" name="Gender" value="Other" /> Other </label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend><b>Interest:</b></legend>
+        <label
+          ><input type="checkbox" name="Interest" value="Music" />
+          Music
+        </label>
+        <label
+          ><input type="checkbox" name="Interest" value="Sport" /> Sport
+        </label>
+        <label
+          ><input type="checkbox" name="Interest" value="Reading" /> Reading
+        </label>
+      </fieldset>
+      <br />
+      <br />
+      <label>
+        <b>Country :</b>
+        <select name="Country" required="required">
+          <option value="pakistan">Pakistan</option>
+          <option value="united states">United States</option>
+          <option value="london">London</option>
+          <option value="united arab emirates">United Arab Emirates</option>
+          <option value="india">India</option>
+        </select>
+      </label>
+      <br />
+      <br />
+      <label>
+        <b>Preferred Colors :</b>
+        <select name="Preferred Colors" size="5">
+          <option value="Red">Red</option>
+          <option value="Blue">Blue</option>
+          <option value="Green">Green</option>
+          <option value="Yellow">Yellow</option>
+          <option value="Black">Black</option>
+          <option value="White">White</option>
+        </select></label
+      >
+      <br />
+      <br />
+      <label>
+        <b>Profile Picture :</b>
+        <input
+          type="file"
+          name="Profile Picture"
+          accept="image/*"
+          required="required"
+        />
+      </label>
+      <br />
+      <br />
+      <button type="submit"><b>Submit</b></button>
+      <br />
+      <label>
+        <input
+          type="checkbox"
+          name="Trems & Conditions are apply"
+          required="required"
+        />
+        <b>Trems & Conditions are apply</b>
+      </label>
+    </form>
+  </body>
+</html>
